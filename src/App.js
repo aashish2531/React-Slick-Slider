@@ -1,24 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import SimpleSlider from './Component/SimpleSlider'
+import SimpleSlider1 from './Component/SimpleSlider1'
+import SimpleSlider2 from './Component/SimpleSlider2'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <SimpleSlider1/> */}
+      {/* <SimpleSlider/> */}
+      <SimpleSlider2/>
     </div>
   );
 }
